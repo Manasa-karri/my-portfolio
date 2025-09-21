@@ -57,6 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "tech-icon-bg": "hsl(var(--tech-icon-bg))",
+        "project-card-bg": "hsl(var(--project-card-bg))",
+        "nav-bg": "hsl(var(--nav-bg))",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
