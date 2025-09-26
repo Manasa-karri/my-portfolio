@@ -6,25 +6,19 @@ const Contact = () => {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://www.linkedin.com/in/sai-manasa-karri-860945270/",
       color: "hover:text-blue-500",
-    },
-    {
-      name: "Twitter",
-      icon: Twitter,
-      url: "https://twitter.com/yourusername",
-      color: "hover:text-blue-400",
     },
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/yourusername",
+      url: "https://github.com/Manasa-karri",
       color: "hover:text-purple-400",
     },
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:your.email@gmail.com",
+      url: "https://mail.google.com/mail/?view=cm&to=saimanasa1119@gmail.com",
       color: "hover:text-red-400",
     },
   ];
@@ -60,11 +54,6 @@ const Contact = () => {
             })}
           </div>
 
-          <div className="pt-12 mt-12 border-t border-border">
-            <p className="text-muted-foreground">
-              Built with ❤️ using React, TypeScript, and Tailwind CSS
-            </p>
-          </div>
         </div>
       </div>
     </section>

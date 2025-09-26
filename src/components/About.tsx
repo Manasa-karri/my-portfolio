@@ -10,8 +10,8 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Hey, I'm <span className="text-primary font-semibold">YOUR NAME</span>! I'm currently pursuing a degree in{" "}
-                <span className="text-accent font-semibold">COMPUTER SCIENCE</span> and working my way into becoming a strong{" "}
+                Hey, I'm <span className="text-primary font-semibold">MANASA</span>! I'm currently pursuing a degree in{" "}
+                <span className="text-accent font-semibold">INFORMATION TECHNOLOGY</span> and working my way into becoming a strong{" "}
                 <span className="text-primary font-semibold">FULLSTACK DEVELOPER</span>.
               </p>
               
@@ -29,9 +29,9 @@ const About = () => {
               
               <div className="space-y-4">
                 <div className="space-y-2">
-                  <h4 className="text-xl font-medium text-foreground">Computer Science</h4>
-                  <p className="text-muted-foreground">Sept 2023 - May 2027</p>
-                  <p className="text-primary font-medium">Your University Name</p>
+                  <h4 className="text-xl font-medium text-foreground">Information Technology</h4>
+                  <p className="text-muted-foreground">Sept 2022 - May 2026</p>
+                  <p className="text-primary font-medium">GVPCEW</p>
                 </div>
               </div>
             </div>

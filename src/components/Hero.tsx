@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container-custom text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           <p className="text-lg sm:text-xl text-muted-foreground animate-float">
-            Hello, I'm <span className="text-primary font-medium">Your Name</span>. An Aspiring Engineer.
+            Hello, I'm <span className="text-primary font-medium">MANASA</span>. An Aspiring Engineer.
           </p>
           
           <h1 className="text-4xl sm:text-6xl lg:text-8xl font-bold tracking-tight">
@@ -19,7 +19,7 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity text-white font-medium px-8 py-4 text-lg rounded-full animate-glow"
-              onClick={() => window.open("#", "_blank")}
+              onClick={() => window.open("/Resumegt.pdf", "_blank")}
             >
               <ExternalLink className="mr-2 h-5 w-5" />
               Resume

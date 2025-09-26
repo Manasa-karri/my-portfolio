@@ -1,24 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-import partnrImage from "@/assets/partnr-project.jpg";
-import watrImage from "@/assets/watr-project.jpg";
+import partnrImage from "@/assets/Delicia.png";
+import watrImage from "@/assets/Profound.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Partnr",
-      description: "A social platform to find people in tech based on skills and interests.",
+      title: "DELICIA",
+      description: "A recipe-sharing platform to discover, post, and personalize culinary experiences.",
       image: partnrImage,
-      liveUrl: "https://partnr.onrender.com/",
-      githubUrl: "https://github.com/haseethvardhan/partnr",
+      liveUrl: null,
+      githubUrl: "https://github.com/Manasa-karri/DELICIA",
       tags: ["React", "Node.js", "MongoDB", "Express"],
     },
     {
-      title: "Watr",
-      description: "A prototype subscription-based water delivery web platform for local suppliers and users.",
+      title: "PROFOUND",
+      description: "A networking platform to connect people in tech through shared skills and interests.",
       image: watrImage,
-      liveUrl: null,
-      githubUrl: "https://github.com/haseethvardhan/watr-delivery-app",
+      liveUrl: "https://pro-found.vercel.app/",
+      githubUrl: "https://github.com/Manasa-karri/PRO-FOUND",
       tags: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
     },
   ];
